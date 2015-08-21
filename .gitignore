@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/AspNetDockerProgrammez/v14
+/src/AspNetDockerProgrammez/node_modules
+*.user
