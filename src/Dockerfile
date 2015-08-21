@@ -10,7 +10,7 @@ RUN mkdir -p /opt/src
 WORKDIR /opt/src
 
 # On ajoute le code de l'application au dossier courant
-ADD ./AspNetDockerProgrammez
+COPY ./AspNetDockerProgrammez /opt/src
 
 # Exécution de la restauration des packages NuGet
 RUN dnu restore
