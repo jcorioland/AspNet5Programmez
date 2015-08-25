@@ -12,6 +12,8 @@ WORKDIR /opt/src
 # On ajoute le code de l'application au dossier courant
 COPY ./AspNetDockerProgrammez /opt/src
 
+ENV MONO_THREADS_PER_CPU=2000
+
 # Exécution de la restauration des packages NuGet
 RUN dnu restore
 
