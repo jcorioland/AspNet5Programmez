@@ -1,7 +1,7 @@
 # Utilisation de l'image de base aspnet 5 beta 6
 FROM microsoft/aspnet:1.0.0-beta6
 
-MAINTAINER Benjamin Talmard
+MAINTAINER Corioland Julien, Benjamin Talmard
 
 # https://github.com/aspnet/dnx/issues/1590#issuecomment-126965429  
 ENV MONO_THREADS_PER_CPU=2000
