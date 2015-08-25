@@ -1,4 +1,4 @@
-# Utilisation de l'image de base aspnet 5 beta 5
+# Utilisation de l'image de base aspnet 6 beta 6
 FROM microsoft/aspnet:1.0.0-beta6
 
 MAINTAINER Julien CORIOLAND
